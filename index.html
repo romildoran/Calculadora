@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <div class="entrada">
+        <input type="number" name="" id="campo1">
+        <input type="number" name="" id="campo2">
+    </div>
+    <br>
+    <div class="operadores">
+        <button onclick="suma()">&plus;</button>
+        <button onclick="resta()">&minus;</button>
+        <button onclick="multiplicacion()">&times;</button>
+        <button onclick="division()">&divide;</button>
+    </div>
+    <br>
+    <div class="doble">
+        <button onclick="raiz()">&radic;</button>
+        <button onclick="potencia()"><i>x</i>&sup2;</button>
+        <br>
+        <button onclick="absoluto()">Absoluto</button>
+        <button onclick="aleatorio()">Aleatorio</button>
+    </div>
+    <div class="salida">
+        <h3>Resultado:</h3>
+        <input type="number" name="" id="resultado">
+    </div>
+    <div class="triple">
+        <button onclick="redondeo()">Round</button>
+        <button onclick="piso()">Floor</button>
+        <button onclick="techo()">Ceil</button>
+    </div>
+    <div class="refrescar">
+        <button onclick="refreshPage()">Reiniciar</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
